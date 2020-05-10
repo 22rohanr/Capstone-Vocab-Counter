@@ -39,7 +39,7 @@ public class WordCounter
             }
             
             //searching the word bank
-            Scanner wordScanner = new Scanner(new BufferedReader(new FileReader("words")));
+            Scanner wordScanner = new Scanner(new BufferedReader(new FileReader("vocabWords")));
             for (int unit = 0; unit < 12; unit++)
             {
                 for (int wordNum = 0; wordNum < 20; wordNum++)
